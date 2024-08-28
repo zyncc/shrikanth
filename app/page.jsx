@@ -5,8 +5,7 @@ export default function Home() {
         <div className="h-screen container w-screen flex items-center justify-start z-10 text-black">
           <div>
             <h1 className="font-bold text-5xl">This is Shrikanth</h1>
-            <p className="font-bold">im short</p>
-            <p>im valo player (hardstuck asc 3 pls carry 🥲)</p>
+            <p className="font-bold">Hello</p>
           </div>
         </div>
       </section>
