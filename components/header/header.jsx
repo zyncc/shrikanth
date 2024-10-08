@@ -6,7 +6,7 @@ export default function Header() {
     <header className="flex header justify-between py-5 fixed top-0 left-0 right-0 bg-white">
       <div className="flex justify-between w-full container">
         <Link href={"/"}>
-          <h1 className="font-semibold text-xl text-black">SHRIKANTH</h1>
+          <h1 className="font-semibold text-xl text-black">RESOLVEO</h1>
         </Link>
         <nav>
           <ul className="flex gap-x-8 text-black font-medium text-base">
@@ -18,9 +18,6 @@ export default function Header() {
             </Link>
             <Link href={"/register"}>
               <li>Register</li>
-            </Link>
-            <Link href={"/"}>
-              <li>Brawl (Gold player | PLAT BOOSTED)</li>
             </Link>
           </ul>
         </nav>
