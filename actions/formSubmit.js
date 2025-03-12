@@ -1,6 +1,7 @@
 "use server";
 
 import prisma from "@/lib/prisma";
+import { redirect } from "next/navigation";
 
 export async function handleSubmit(formData) {
   const data = Object.fromEntries(formData);
@@ -15,6 +16,6 @@ export async function handleSubmit(formData) {
       description: data.description,
     },
   });
-
   console.log(res);
+  redirect(`/success/${res.id}`);
 }
