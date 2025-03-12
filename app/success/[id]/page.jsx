@@ -16,7 +16,7 @@ export default async function Page({ params }) {
   const { id } = params;
   const complaint = await prisma.registrations.findUnique({
     where: {
-      id,
+      id: id,
     },
   });
   if (!complaint) {
